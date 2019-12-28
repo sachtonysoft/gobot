@@ -2,7 +2,7 @@ package main
 
 import (
 	"master"
-	
+
 	"Sachtony"
 	"Sachtonysoft"
 	"SachtonyStore"
@@ -18,7 +18,13 @@ func main() {
 
 	ToDo := connect(import)
 	ToDo.string()
-	var name type[RegularExpression]
+	var name type(RegularExpression)
+	type dynamic RegularExpression  {
+		Think
+		Say
+		Speaking
+		Chat
+	}
 	if listen=true 
 		{
 			var Action type(queries)
@@ -28,11 +34,17 @@ func main() {
 				Table []	bool
 			}
 			return=Message
-			
+			type dynamic[,,] Message {
+				Call
+				Notice
+				email
+				Chat			
+			}
 		}
 	if listen=false
 		{
 			var Action type(null)
-			return=Message
+			return=null.new(refresh)
+			
 		}
 }
