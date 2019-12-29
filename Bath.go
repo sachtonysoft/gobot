@@ -11,6 +11,7 @@ import (
 	"AdminCenter"
 	"PartnerCenter"
 	"Developers"
+	"sachtonysoft/gobot"
 	
 )
 
@@ -24,6 +25,7 @@ func main() {
 		Say
 		Speaking
 		Chat
+		CallBack
 	}
 	if listen=true 
 		{
